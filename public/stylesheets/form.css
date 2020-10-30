@@ -1,0 +1,56 @@
+.form_title {
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 3px solid #fccfcf;
+  width: 1000px;
+}
+
+.form_text {
+  text-align: center;
+  margin: 60px 0px 25px 0px;
+  font-size: 25px;
+}
+
+.post_block {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: solid 3px #fccfcf;
+  border-radius: 10px;
+}
+
+.box_block {
+  margin: 0 auto;
+  width: 160px;
+}
+
+.box_title {
+  text-align: center;
+  border-bottom: 3px solid #fccfcf;
+  margin: 0px;
+}
+
+.btn_block {
+  width: 200px;
+  height: 155px;
+  margin: 0 auto;
+}
+
+.btn {
+  text-align: center;
+  display: inline-block;
+  padding: 1em 2em;
+  line-height: 1;
+  color: #fff;
+  background-color: #FF98B4;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow:0 6px 0 #c27400; /* 下の辺を影で表現 */
+  transition: 0.2s; /* アニメーション速度 */
+}
+
+.btn:hover{
+  box-shadow:0 4px 0 #c27400; /* 影の大きさを縮める */
+  margin: 2px 0 -2px 0; /* marginで位置調整 */
+}

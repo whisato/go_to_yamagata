@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/stylesheets/answer.css">
+</head>
+<body>
+  <h1 class="answer_title">アンケート集計ページ</h1>
+  <h1 class="tb_title">
+      年代：行きたい東北地方
+  </h1>
+  <table class="answer_tb">
+    <% values.forEach(function (value) { %>
+      <tr>
+        <td><%= value.age %>代：</td>
+        <td><%= value.Prefectures %>県</td>
+      </tr>
+    <% }); %>
+</body>
+</html>

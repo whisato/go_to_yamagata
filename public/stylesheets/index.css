@@ -1,0 +1,282 @@
+/* -------------------- header -------------------- */
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color:white;
+  align-items: center;
+}
+
+.titlie_img {
+  width: 300px;
+  padding-left: 20px;
+}
+
+.cherry {
+  margin-right: auto;
+  width: 65px;
+  padding-left:15px;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding:0px 10px;
+  font-size: 20px;
+  border-left: 3px solid #f0b200;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #410000;}
+
+a:hover{
+  color : #a86d6d;
+}
+
+/* -------------------- body -------------------- */
+
+html {
+  height: 100%;
+}
+
+
+body {
+  margin: 0px;
+  height: 100%;
+  color: #410000;
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+}
+
+.fadeIn {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.fadeIn li {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: none;
+  opacity: 0;
+  animation: anime 40s linear 0s infinite;
+}
+.fadeIn li:nth-child(1) {
+  background-image: url(../images/sakura.jpeg)
+}
+.fadeIn li:nth-child(2) {
+  background-image: url(../images/ginzan.jpeg);
+  animation-delay: 10s;
+}
+.fadeIn li:nth-child(3) {
+  background-image: url(../images/sakura_osiro.jpeg);
+  animation-delay: 20s;
+}
+.fadeIn li:nth-child(4) {
+  background-image: url(../images/zaou.jpeg);
+  animation-delay: 30s;
+}
+
+@keyframes anime {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.bg_pic {
+  padding-top: 170px;
+  padding-bottom: 150px;
+}
+
+.text_main {
+  font-size: 80px;
+  color: #FFF;
+  opacity: 0.8;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+.quiz_frame {
+  width: 450px;
+  height: 165px;
+  margin:0 auto;
+  background:hsla(0,0%,100%,0.3);
+}
+
+.text_block {
+  margin: 0px;
+  padding:20px;
+  color: #FFF;
+  text-align: center;
+}
+
+.puize_block {
+  margin: 0 auto;
+  text-align: center;
+  width: 270px;
+}
+
+a.btn{
+  display: inline-block;
+  padding: 1em 2em;
+  line-height: 1;
+  color: #fff;
+  background-color: #ff9900;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow:0 6px 0 #c27400; /* 下の辺を影で表現 */
+  transition: 0.2s; /* アニメーション速度 */
+}
+a.btn:hover{
+  box-shadow:0 4px 0 #c27400; /* 影の大きさを縮める */
+  margin: 2px 0 -2px 0; /* marginで位置調整 */
+}
+
+.place {
+  margin: 0 auto;
+  padding-top: 110px;
+  text-align: center;
+  width: 1000px;
+  border-bottom: 3px solid #f0b200;
+  font-size: 30px;
+}
+
+.pref_block {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.place_details {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.pref {
+  width: 550px;
+}
+
+.place2 {
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 1000px;
+  border-bottom: 3px solid #f0b200;
+}
+
+.access_block {
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.place3 {
+  margin: 0 auto;
+  padding-top: 35px;
+  font-size: 30px;
+  text-align: center;
+  width: 1000px;
+  border-bottom: 3px solid #f0b200;
+}
+
+.thank_image_block {
+  text-align: center;
+}
+
+.thank_you {
+  width: 160px;
+  position: relative;
+  transform: rotate( -25deg );
+  right: 260px;
+  top: 70px;
+}
+
+.present_frame {
+  width: 500px;
+  height: 185px;
+  margin:0 auto;
+  border: solid 3px #fccfcf;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.textblock {
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0);
+  text-shadow: 3px 3px 0 rgb(241, 201, 201);
+  -webkit-text-stroke: 1px #888;
+}
+
+.present_block {
+  margin: 0 auto;
+  text-align: center;
+  width: 270px;
+}
+
+a.btn2{
+  display: inline-block;
+  padding: 1em 2em;
+  line-height: 1;
+  color: #fff;
+  background-color: #FF98B4;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow:0 6px 0 #c27400; /* 下の辺を影で表現 */
+  transition: 0.2s; /* アニメーション速度 */
+}
+a.btn2:hover{
+  box-shadow:0 4px 0 #c27400; /* 影の大きさを縮める */
+  margin: 2px 0 -2px 0; /* marginで位置調整 */
+}
+
+.bottom {
+  padding-bottom: 100px;
+}
+
+/* -------------------- footer -------------------- */
+
+footer {
+  position: absolute;
+  width: 100%;
+  background: rgba(11, 138, 0, 0.7);
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}

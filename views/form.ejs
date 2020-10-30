@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/stylesheets/form.css">
+	<title>入力フォーム</title>
+</head>
+<body>
+<h1 class="form_title">アンケート調査</h1>
+<h3 class="form_text">プレゼントの前に簡単なご協力お願いしますm(_ _)m</h3>
+<div class="post_block">
+<form action="/" method="POST">
+  <div class="box_block">
+    <p class="box_title">年代</p>
+  </div>
+  <input type="radio" name="age" value="10" required>10代
+  <input type="radio" name="age" value="20" required>20代
+  <input type="radio" name="age" value="30" required>30代
+  <input type="radio" name="age" value="40" required>40代
+  <input type="radio" name="age" value="50" required>50代
+  <input type="radio" name="age" value="60" required>60代
+  <br><br>
+  <div class="box_block">
+    <p class="box_title">行きたい東北地方</p>
+  </div>
+  <input type="radio" name="Prefectures" value="青森" required>青森
+  <input type="radio" name="Prefectures" value="岩手" required>岩手
+  <input type="radio" name="Prefectures" value="秋田" required>秋田
+  <input type="radio" name="Prefectures" value="山形" required>山形
+  <input type="radio" name="Prefectures" value="宮城" required>宮城
+  <input type="radio" name="Prefectures" value="福島" required>福島
+  <br><br>
+  <div class="btn_block">
+    <button class="btn" type="submit">プレゼントページへ ＞</button>
+  </div>
+</form>
+</div>
+</body>
+</html>

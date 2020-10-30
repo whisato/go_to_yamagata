@@ -1,0 +1,12 @@
+body {
+  padding: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn_return {
+  width: 58px;
+  margin: 20px auto;
+}

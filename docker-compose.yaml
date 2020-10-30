@@ -1,0 +1,28 @@
+version: '3.7'
+services:
+  mysql:
+    image: mysql:14.14
+    env_file: ./mysql/mysql.env
+    environment:
+      - TZ=Asia/Tokyo
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./mysql/conf:/etc/mysql/conf.d/:ro
+      - mysqldata:/var/lib/mysql
+    networks:
+      - default
+
+    restart: always
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: ./app.env
+    depends_on:
+      - mysql
+networks:
+  default:
+volumes:
+  mysqldata:

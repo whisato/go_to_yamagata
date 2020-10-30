@@ -1,0 +1,97 @@
+/* present drop
+------------------------------------------*/
+.drop-area{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0px;
+  background-image:url(../images/presents.jpg);
+  background-size:contain;
+}
+
+@keyframes drop {
+  0%  {
+    background-position:0 0;
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    background-position:0px 500px;
+    opacity: 0;
+  }
+}
+
+.drop-area{
+  animation: drop 5s linear;
+}
+
+/* page operation
+------------------------------------------*/
+
+a {
+  text-decoration: none;
+  color : #000000;
+}
+
+a:hover{
+  color : #a8a8a8;
+}
+
+.thankyou_title {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 40px;
+  border-bottom: 3px solid #f0b200;
+}
+
+.thankyou {
+  text-align: center;
+  margin: 30px 0px 25px 0px;
+}
+
+.thank_span {
+  background: linear-gradient(rgba(255, 122, 222, 0) 60%, rgba(255, 88, 88, 0.2) 60%);
+}
+
+.image_opration {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.line {
+  width: 350px;
+  height: 300px;
+}
+
+.thankyou2 {
+  text-align: center;
+  margin: 10px 0 -10px 0;
+}
+
+.image_thankyou {
+  text-align: center;
+}
+
+.thankyou_image {
+  width: 350px;
+  height: 300px;
+}
+
+.return {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.return_botton {
+  font-size: 30px;
+  text-decoration: none;
+}

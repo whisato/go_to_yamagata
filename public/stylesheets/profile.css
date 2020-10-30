@@ -1,0 +1,44 @@
+a{
+  font-size: 30px;
+  text-decoration: none;
+  color : #000000;
+}
+
+a:hover{
+  color : #a8a8a8;
+}
+
+
+
+.prof {
+  margin: 0 auto;
+  width: 1000px;
+  font-size: 50px;
+  border-bottom: 3px solid #f0b200;
+  text-align: center;
+}
+
+.pic_box {
+  text-align: center;
+}
+
+.pc_pic {
+  width: 500px;
+}
+
+.job_title {
+  text-align: center;
+  margin: 0 auto;
+  width: 1300px;
+  border-bottom: 3px solid #f0b200;
+}
+
+.skill {
+  padding:10px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.return {
+  text-align: center;
+}

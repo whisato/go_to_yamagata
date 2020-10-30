@@ -1,0 +1,21 @@
+.answer_title {
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 3px solid #f0b200;
+  width: 1000px;
+}
+
+.answer_tb {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.tb_title {
+  width: 265px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: -20px auto;
+  padding: 40px 0px 0px 130px;
+}
