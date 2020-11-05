@@ -90,8 +90,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(8000, function(){
-  console.log("listening to PORT:8000");
-});
+app.listen(process.env.PORT || 8000)
 
 module.exports = app;

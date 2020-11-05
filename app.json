@@ -1,0 +1,8 @@
+{
+  "name": "GoToYamagata",
+  "description": "YamagataPage",
+  "repository": "https://github.com/whisato/go_to_yamagata",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}
